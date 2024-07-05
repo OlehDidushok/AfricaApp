@@ -29,6 +29,9 @@
 		CED1F2142C381F17008F28FC /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED1F2132C381F17008F28FC /* MapView.swift */; };
 		CED1F2162C381F27008F28FC /* GalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED1F2152C381F27008F28FC /* GalleryView.swift */; };
 		CED1F2182C381F43008F28FC /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED1F2172C381F43008F28FC /* MainView.swift */; };
+		CED1F21B2C3821D3008F28FC /* CoverImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED1F21A2C3821D3008F28FC /* CoverImageView.swift */; };
+		CED1F21E2C382F81008F28FC /* CoverImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED1F21D2C382F81008F28FC /* CoverImageModel.swift */; };
+		CED1F2212C3830D2008F28FC /* CodableBundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED1F2202C3830D2008F28FC /* CodableBundleExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +59,9 @@
 		CED1F2132C381F17008F28FC /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		CED1F2152C381F27008F28FC /* GalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryView.swift; sourceTree = "<group>"; };
 		CED1F2172C381F43008F28FC /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		CED1F21A2C3821D3008F28FC /* CoverImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverImageView.swift; sourceTree = "<group>"; };
+		CED1F21D2C382F81008F28FC /* CoverImageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverImageModel.swift; sourceTree = "<group>"; };
+		CED1F2202C3830D2008F28FC /* CodableBundleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableBundleExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,11 +94,14 @@
 		CEAD13DF2C29F18300804100 /* AfricaApp */ = {
 			isa = PBXGroup;
 			children = (
-				CED1F20D2C381D6D008F28FC /* Info.plist */,
+				CED1F21F2C3830AB008F28FC /* Extension */,
+				CED1F21C2C382F50008F28FC /* Model */,
+				CED1F2192C3821B3008F28FC /* View */,
 				CEAD14032C29F4DC00804100 /* Data */,
 				CEAD13EE2C29F48600804100 /* Video */,
 				CED1F20E2C381E8C008F28FC /* App */,
 				CEAD13E42C29F18500804100 /* Assets.xcassets */,
+				CED1F20D2C381D6D008F28FC /* Info.plist */,
 				CEAD13E62C29F18500804100 /* Preview Content */,
 			);
 			path = AfricaApp;
@@ -145,6 +154,30 @@
 				CED1F2172C381F43008F28FC /* MainView.swift */,
 			);
 			path = App;
+			sourceTree = "<group>";
+		};
+		CED1F2192C3821B3008F28FC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CED1F21A2C3821D3008F28FC /* CoverImageView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CED1F21C2C382F50008F28FC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CED1F21D2C382F81008F28FC /* CoverImageModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CED1F21F2C3830AB008F28FC /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				CED1F2202C3830D2008F28FC /* CodableBundleExtension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,10 +266,13 @@
 			files = (
 				CEAD13E32C29F18300804100 /* ContentView.swift in Sources */,
 				CED1F2182C381F43008F28FC /* MainView.swift in Sources */,
+				CED1F21B2C3821D3008F28FC /* CoverImageView.swift in Sources */,
+				CED1F21E2C382F81008F28FC /* CoverImageModel.swift in Sources */,
 				CED1F2142C381F17008F28FC /* MapView.swift in Sources */,
 				CEAD13E12C29F18300804100 /* AfricaAppApp.swift in Sources */,
 				CED1F2122C381F00008F28FC /* VideoListView.swift in Sources */,
 				CED1F2162C381F27008F28FC /* GalleryView.swift in Sources */,
+				CED1F2212C3830D2008F28FC /* CodableBundleExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
