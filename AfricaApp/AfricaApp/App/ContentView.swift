@@ -25,7 +25,6 @@ struct ContentView: View {
                     } label: {
                         AnimalListItemView(animal: animal)
                     }
-
                 }
             } //: LIST
             .navigationBarTitle("Africa", displayMode: .large)
